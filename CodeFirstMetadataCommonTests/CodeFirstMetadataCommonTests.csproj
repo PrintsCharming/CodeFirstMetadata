@@ -35,6 +35,23 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="RoslynDom">
+      <HintPath>..\..\..\RoslynDOMDlls\RoslynDom.dll</HintPath>
+    </Reference>
+    <Reference Include="RoslynDomCommon, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\RoslynDOMDlls\RoslynDomCommon.dll</HintPath>
+    </Reference>
+    <Reference Include="RoslynDomCSharpFactories">
+      <HintPath>..\..\..\RoslynDOMDlls\RoslynDomCSharpFactories.dll</HintPath>
+    </Reference>
+    <Reference Include="RoslynDomRDomCommon">
+      <HintPath>..\..\..\RoslynDOMDlls\RoslynDomRDomCommon.dll</HintPath>
+    </Reference>
+    <Reference Include="RoslynDomUtilities, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\RoslynDOMDlls\RoslynDomUtilities.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
   </ItemGroup>
   <Choose>

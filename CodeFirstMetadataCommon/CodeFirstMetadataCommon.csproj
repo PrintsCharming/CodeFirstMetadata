@@ -70,21 +70,20 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\Unity.3.5.1405-prerelease\lib\net45\Microsoft.Practices.Unity.RegistrationByConvention.dll</HintPath>
     </Reference>
-    <Reference Include="RoslynDom, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\RoslynDom.1.0.28-alpha\lib\net45\RoslynDom.dll</HintPath>
+    <Reference Include="RoslynDom">
+      <HintPath>..\..\..\RoslynDOMDlls\RoslynDom.dll</HintPath>
     </Reference>
-    <Reference Include="RoslynDomCommon, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\RoslynDom.1.0.28-alpha\lib\net45\RoslynDomCommon.dll</HintPath>
+    <Reference Include="RoslynDomCommon">
+      <HintPath>..\..\..\RoslynDOMDlls\RoslynDomCommon.dll</HintPath>
     </Reference>
-    <Reference Include="RoslynDomRDomCommon, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\RoslynDom.1.0.28-alpha\lib\net45\RoslynDomRDomCommon.dll</HintPath>
+    <Reference Include="RoslynDomCSharpFactories">
+      <HintPath>..\..\..\RoslynDOMDlls\RoslynDomCSharpFactories.dll</HintPath>
     </Reference>
-    <Reference Include="RoslynDomUtilities, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\RoslynDom.1.0.28-alpha\lib\net45\RoslynDomUtilities.dll</HintPath>
+    <Reference Include="RoslynDomRDomCommon">
+      <HintPath>..\..\..\RoslynDOMDlls\RoslynDomRDomCommon.dll</HintPath>
+    </Reference>
+    <Reference Include="RoslynDomUtilities">
+      <HintPath>..\..\..\RoslynDOMDlls\RoslynDomUtilities.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Collections.Immutable, Version=1.1.32.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
